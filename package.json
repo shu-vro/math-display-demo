@@ -1,0 +1,18 @@
+{
+  "name": "research-math",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@cortex-js/compute-engine": "^0.24.1",
+    "mathlive": "^0.98.6"
+  }
+}
