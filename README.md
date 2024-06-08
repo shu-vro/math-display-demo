@@ -26,7 +26,7 @@ npm i
 ### Run the app
 
 ```sh
-npm dev
+npm run dev
 ```
 
 ## Resources used (best to know)
