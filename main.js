@@ -31,8 +31,9 @@ import "./style.css";
 import { ComputeEngine } from "@cortex-js/compute-engine";
 
 document.querySelector("#app").innerHTML = `
-<math-field id="formula" style="display: block; font-size: 1.8rem;">\\int_2^4\\left(x^2+2x+3\\right)dx</math-field>
-<h>Latex</h>
+<math-field id="formula" class="sticky">\\int_2^4\\left(x^2+2x+3\\right)dx</math-field>
+<h2>Latex</h2>
+<p>u can use both textarea below and by touching the equation above</p>
 <textarea rows="2" cols="60" class="output" id="latex" autocapitalize="off" autocomplete="off"
   autocorrect="off" spellcheck="false"></textarea>
 

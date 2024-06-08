@@ -5,12 +5,42 @@ html {
 
 body {
     margin: 0;
-    padding: 10px 20px;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", "Gill Sans", "Gill Sans MT", Calibri,
         "Trebuchet MS", sans-serif;
 }
 
+/* body::-webkit-scrollbar {
+    width: 0px;
+} */
+
 textarea {
     font-size: 20px;
+}
+
+math-field {
+    display: block;
+    font-size: 1.8rem;
+}
+
+.sticky {
+    position: sticky;
+    top: 10px;
+}
+
+#app {
+    padding: 0 20px;
+    overflow: auto;
+    position: relative;
+    height: 100vh;
+}
+
+#keyboard {
+    position: fixed;
+    top: calc(100vmin - 50vh);
+    left: 10px;
+    background: #000;
+    width: 100%;
+    height: 50vh;
 }
